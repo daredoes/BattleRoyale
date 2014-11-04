@@ -1,0 +1,13 @@
+name: BattleRoyale
+main: com.danielarevans.br.Main
+commands:
+    brMap:
+        description: After you've selected your points this generates the map.
+        usage: /brMap
+    brMapPoints:
+        description: Select the two points using Rotten Flesh.
+        usage: /brMapPoints
+    brradar:
+        description: sonar!
+        usage: /brRadar
+version: 0.1
