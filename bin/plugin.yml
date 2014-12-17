@@ -1,13 +1,25 @@
 name: BattleRoyale
 main: com.danielarevans.br.Main
 commands:
-    brMap:
+    genMap:
         description: After you've selected your points this generates the map.
-        usage: /brMap
-    brMapPoints:
+        usage: /genMap <Number of Rows and Columns in the Map>
+    setMap:
         description: Select the two points using Rotten Flesh.
-        usage: /brMapPoints
-    brradar:
-        description: sonar!
-        usage: /brRadar
+        usage: /setMap
+    start:
+        description: Start the gamemode!
+        usage: /start
+    leave:
+        description: No longer be a fighter.
+        usage: /leave
+    join:
+        description: Become a fighter!
+        usage: /join
+    end:
+        description: END THE BATTLE!
+        usage: /end
+    setSpawn:
+        description: Set a spawn point for the fighters to begin at.
+        usage: /setSpawn
 version: 0.1
