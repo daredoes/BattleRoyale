@@ -4,7 +4,7 @@ CraftBukkit 1.7.9 Minecraft Plugin for CS185C, Virtual Environments, Fall 2014
 
 Commands:
 
-  genMap:
+	genMap:
   
 		description: After you've selected your points this generates the map.
 		
